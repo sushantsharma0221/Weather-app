@@ -51,12 +51,12 @@ h5 {
 }
 .search {
   border: none;
+  padding: 8px;
   background-color: rgba(77, 77, 77, 0.507);
   border-radius: 50px;
   color: rgb(183, 183, 183);
-  padding: 8px;
   outline: none;
-  padding-left: 16px;
+  padding-left: 15px;
 }
 .searchbtn {
   height: 2.6rem;
@@ -71,4 +71,11 @@ h5 {
 .searchbtn:hover {
   transition: ease-in 0.3s;
   background-color: rgb(180, 180, 180);
+}
+@media (max-width: 420px) {
+  .search {
+    height: 5vh;
+    width: 40vw;
+    margin-left: 4vw;
+  }
 }
