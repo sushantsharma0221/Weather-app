@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  background-image: url("./green.jpg");
+  background-size: cover;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.292);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 1px;
+}
+.card {
+  background-color: rgba(0, 0, 0, 0.701);
+  color: white;
+  border-radius: 12px;
+  box-shadow: 6px 10px 10px #000000;
+  padding: 8px;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.innerCon {
+  margin-top: 1.5rem;
+}
+.card-body {
+  margin-left: 14px;
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+}
+.title {
+  text-align: center;
+  color: rgb(239, 239, 239);
+  margin-top: 1rem;
+}
+.search::placeholder {
+  color: rgb(214, 214, 214);
+}
+h2,
+h3,
+h5 {
+  margin-top: 0.5rem;
+}
+.search {
+  border: none;
+  background-color: rgba(77, 77, 77, 0.507);
+  border-radius: 50px;
+  color: rgb(183, 183, 183);
+  padding: 8px;
+  outline: none;
+  padding-left: 16px;
+}
+.searchbtn {
+  height: 2.6rem;
+  width: 2.6rem;
+  border: none;
+  border: none;
+  background-color: rgba(83, 83, 83, 0.507);
+  border-radius: 50px;
+  color: gray;
+  outline: none;
+}
+.searchbtn:hover {
+  transition: ease-in 0.3s;
+  background-color: rgb(180, 180, 180);
+}
