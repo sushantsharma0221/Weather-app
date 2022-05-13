@@ -7,8 +7,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  overflow: hidden;
+  height: 100vh;
+  overflow-x: hidden;
   background-image: url("./green.jpg");
   background-size: cover;
   background-blend-mode: color;
@@ -32,7 +32,7 @@ body {
   margin-top: 1.5rem;
 }
 .card-body {
-  margin-left: 14px;
+  margin-left: 20px;
   margin-top: 0.5rem;
   text-transform: capitalize;
 }
