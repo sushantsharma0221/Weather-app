@@ -9,7 +9,8 @@ body {
   justify-content: center;
   height: 100vh;
   overflow-x: hidden;
-  background-image: url("./green.jpg");
+  /* background-image: url("./green.jpg"); */
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
   background-size: cover;
   background-blend-mode: color;
   background-color: rgba(0, 0, 0, 0.292);

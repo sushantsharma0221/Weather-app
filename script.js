@@ -5,7 +5,8 @@ const API_Key = "a4481813ee3e52c84b417ec5b99aea63";
 
 button.addEventListener("click", () => {
   const cityInput = inputTxt.value;
-
+  document.body.style.backgroundImage =
+    "url('https://source.unsplash.com/1600x900/?" + cityInput + "')";
   fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${cityInput}&units=metric&APPID=${API_Key}`
   )
