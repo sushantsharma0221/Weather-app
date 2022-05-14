@@ -3,7 +3,7 @@ let button = document.querySelector(".searchbtn");
 let innerCon = document.querySelector(".innerCon");
 const API_Key = "a4481813ee3e52c84b417ec5b99aea63";
 
-button.addEventListener("click", () => {
+function Weather() {
   const cityInput = inputTxt.value;
   document.body.style.backgroundImage =
     "url('https://source.unsplash.com/1600x900/?" + cityInput + "')";
@@ -24,4 +24,12 @@ button.addEventListener("click", () => {
 
 `;
     });
+}
+button.addEventListener("click", () => {
+  Weather();
+});
+inputTxt.addEventListener("keyup", function (event) {
+  if (event.key == "Enter") {
+    Weather();
+  }
 });

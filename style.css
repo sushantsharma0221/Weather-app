@@ -9,7 +9,6 @@ body {
   justify-content: center;
   height: 100vh;
   overflow-x: hidden;
-  /* background-image: url("./green.jpg"); */
   background-image: url("https://source.unsplash.com/1600x900/?landscape");
   background-size: cover;
   background-blend-mode: color;
@@ -74,9 +73,12 @@ h5 {
   background-color: rgb(180, 180, 180);
 }
 @media (max-width: 420px) {
+  body {
+    font-size: 1rem;
+  }
   .search {
-    height: 5vh;
-    width: 40vw;
+    height: 7vh;
+    width: 44vw;
     margin-left: 4vw;
   }
 }
